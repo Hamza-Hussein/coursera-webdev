@@ -1,10 +1,40 @@
-.row {
-  margin-bottom: 15px;
+*{
+  box-sizing: border-box;
 }
-.row > div {
-  border: 2px solid red;
-  background-color: gray;
+h1{
+  text-align: center;
 }
-.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12
-{
-  float: left; position: relative; }
+
+
+section{
+  background-color: gray; border: solid black;margin: 0.5%
+}
+
+.chick {
+  background-color: green;border: solid black;text-align: center; width: 25%;float: right;
+}
+
+.beef {
+  background-color: red;border: solid black;text-align: center; width: 25%;float: right;
+}
+
+.Sushi {
+  background-color: yellow;border: solid black;text-align: center; width: 25%;float: right;
+}
+
+p {
+  text-align: justify; margin-top: 7%;
+}
+
+@media (min-width:992px) {
+  section{float: left;width: 32%}
+
+}
+@media (min-width:768px) and (max-width:991px) {
+.chbe{width: 48.5%; float: left;margin-bottom: 20px}
+.su{width: 96.5%; position: absolute; top: 270px; margin: .5; }
+.para{margin-top: 4%}
+}
+@media (max-width:767px) {
+
+}
